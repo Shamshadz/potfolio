@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Shamshad by @afnizarnur</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/kube.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/custom.min.css" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'Shamshad';
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+					<span class="logo">Shamshad</span>
+				</div>
+				<nav id="navbar-1" class="navbar item-nav">
+					<ul>
+						<li class="active"><a href="#about">About</a></li>
+						<li><a href="#experiences">Experiences</a></li>
+						<li><a href="#achievements">Achievements</a></li>
+						<li><a href="#skills">Skills</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+	</div>
+
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hi, I’m Shamshad the Radiant</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/ava2.jpg" alt="Avatar" style="object-fit: contain;">
+				</div>
+				<div class="unit-80">
+					<h1>I live in<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					Shamshad is a of Persian origin, often translated to mean "radiant"
+					or "radiance of the sun." In Arabic, the name carries the beautiful
+					connotation of "eternal light." Just like its meaning, Shamshad holds a
+					significant place. Though not a celestial constellation, the name
+					Shamshad shines brightly in various cultures.
+					It represents illumination and positivity,
+					much like the sun's radiant glow.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Work Experience -->
+	<div class="work section second" id="experiences">
+		<div class="container">
+			<h1>Work<br>Experiences</h1>
+			<ul class="work-list">
+				<li>DEC-2022 - August-2023</li>
+				<li><a href="#">PT Traveloka Indonesia</a></li>
+				<li>Backend Developer</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Award & Achievements -->
+	<!-- <div class="award section second" id="achievements">
+		<div class="container">
+			<h1>Award &amp;<br>Achievements</h1>
+			<ul class="award-list list-flat">
+				<li>January 2014</li>
+				<li>Attained PHP5 certification</li>
+				<li>Hold world/Olympic record</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>December 2014</li>
+				<li>Audited X number of clients in only Y amount of time</li>
+				<li>Held a perfect attendance record</li>
+				<li>Were promoted after only X months in the role</li>
+			</ul>
+			<ul class="award-list list-flat">
+				<li>March 2014</li>
+				<li>Placed employees at X companies</li>
+				<li>United multiple teams post-merger</li>
+			</ul>
+		</div>
+	</div> -->
+
+	<!-- Technical Skills -->
+	<div class="skills section second" id="skills">
+		<div class="container">
+			<h1>Technical<br>Skills</h1>
+			<ul class="skill-list list-flat">
+				<li>Web Technology</li>
+				<li>HTML / CSS / Javascript </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Database</li>
+				<li>MySQL / MongoDB / Firebase </li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li>Framework</li>
+				<li>React JS / Django / </li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<h1>fight against the ugliness.</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+				<div class="unit-50">
+					<p>Handcrafted by Afnizar Nur Ghifari</p>
+				</div>
+				<div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="choudharyshamshad007@gmail.com"><i class="fa fa-send"></i></a></li>
+						<li><a href="http://twitter.com/shamshadzzz"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/choudhary-shamshad-64b305229/"><i
+									class="fa fa-linkedin"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+	<script src="js/kube.min.js"></script>
+	<script src="js/site.js"></script>
+	<script>
+		function newTyped() { } $(function () {
+			$("#typed").typed({
+				// Change to edit type effect
+				strings: ["far northern sky", "your galaxy", "everywhere"],
+
+				typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
+			}), $(".reset").click(function () { $("#typed").typed("reset") })
+		});
+	</script>
+</body>
+
+</html>
